@@ -41,16 +41,35 @@
 ## Methodology
 ### Steps taken to build the system
 - The NODEMCU-ESP32S is first configured as a WIFI station
-  Circuit design
-- The  small LED lights are connected to the GPIO pins 
+-  Circuit design
+    - The  small LED lights are connected to the GPIO pins 
   15,5 and 14 of the microcontroller. The longer leg of 
  the led pin is the anode and it is connect in series to a 
  resistor which is then connected to the GPIO pin. The 
  shorter leg is the cathode which connected to the GND pin 
  of the microcontroller.
 - The voice commands are predefined and the light controlling features are coded and uploaded to the microcontroller using the Arduino IDE.
-- After the hardware is developed, the mobile application is developed. we first start with the front end which the user interface and then we add functionality to it in the back end. 
+- After the hardware is developed, the mobile application is developed. we first start with the front end which the user interface and then we add functionality to it in the back end.
+## Circuit Diagram
+![image](https://github.com/Mafumu12/Voice-Controlled-Lighting-System/assets/89388706/a777fda7-b439-4aad-87cc-3242a3695d54)
+
+![image](https://github.com/Mafumu12/Voice-Controlled-Lighting-System/assets/89388706/9a3d45d5-6d65-4757-9629-e1618c9c7d63)
+
+## Testing
+- After the development of the system is done, it is tested and any faults or errors found are rectified. For example if the user says “lights on” all the lights should go on.
  
+![image](https://github.com/Mafumu12/Voice-Controlled-Lighting-System/assets/89388706/b5608812-bb80-456c-a6d1-e953a1f22bca)
+
+## Conclusion
+### Benefits
+- Benefits 
+  - From observation, we are able to see that this system 
+    would make life a whole lot easier for disabled people 
+    who can at least speak.
+  - The method of controlling lights remotely would save 
+    up on time which can come in handy during an emergency.
+ 
+
 
 
  
